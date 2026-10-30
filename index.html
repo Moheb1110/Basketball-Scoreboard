@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Scoreboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,600;1,14..32,600&family=Kumbh+Sans:wght,YOPQ@100..900,300&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Outfit:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Basketball Scoreboard</h1>
+     <img src="basketball-svgrepo-com.svg" alt="basketball">
+
+<div class="container">
+       <h2>Team Scores</h2>
+
+    <div class="teams">
+        <div class="team">
+             <h3>Home Team:</h3>
+             <p id="home-score">0</p>
+             <div class="buttons">
+               <button onclick="addOneHome()">+1</button>
+               <button onclick="addTwoHome()">+2</button>
+               <button onclick="addThreeHome()">+3</button>
+            </div>
+        </div>
+
+     <button id="reset-btn">New Game</button>
+
+       <div class="team">
+        <h3>Guest Team:</h3>
+        <p id="guest-score">0</p>
+         <div class="buttons">
+        <button onclick="addOneGuest()">+1</button>
+        <button onclick="addTwoGuest()">+2</button>
+        <button onclick="addThreeGuest()">+3</button>
+        </div>
+       </div>
+
+       </div>
+   
+</div>
+
+    <script src="app.js"></script>
+</body>
+</html>

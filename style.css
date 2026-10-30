@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Orbitron',sans-serif;
+    background: #fed3c8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    padding:1.25rem;
+    margin-top: 2.5rem;
+    color:#803808;
+}
+
+img {
+     width: 6.25rem;
+     height:6.25rem;
+     transform: translateY(265px);
+     border-radius: 50%;
+     border: 1px solid #fd7e40;
+     justify-self: center;
+     align-self: center;
+}
+
+.container{
+    padding: 2.5rem; 
+    max-width: 37.5rem;
+    max-height: 43.75rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #c65a12;
+    border-radius: 0.625rem;
+    border: 2px solid #ffede9;
+}
+
+.container h2 {
+    margin-bottom:2rem;
+    padding:5px;
+    color:#fed3c8;
+}
+
+
+.team h3{
+    padding: 1.25rem;
+    padding-right: 2.5rem;
+    color:#ffede9;
+}
+
+
+.teams{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: space-evenly;
+}
+
+.team{
+    width:18.75rem;
+    height: 12.5rem;
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+#teams h3{
+    padding: 0.625rem;
+    color:#ffede9;
+}
+
+.team p{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:6.25rem;
+    height:9.375rem;
+    padding:2px;
+    border-radius: 0.625rem;
+    background-color: #fd7e40;
+    font-size: 2.5rem;
+    color: #fed3c8;
+    overflow: hidden;
+    border: 1px solid #fed3c8;
+}
+
+.buttons{
+    padding:5px;
+}
+.team button{
+    padding: 5px;
+    margin-top: 5px;
+    border:none;
+    background-color: #fed3c8;
+    border-radius: 4px;
+    color:#803808;
+}
+
+#reset-btn{ 
+    width: 7.813rem;
+    height: 2.5rem;
+    border: 1px solid #fed3c8;
+    opacity: 0.9;
+    border-radius: 0.625rem;
+    background-color: #803808;
+    color: #fed3c8;
+    font-size: 1.05rem;
+     font-family: "orbitron";
+}
+
+#reset-btn:hover{
+    opacity: 1;
+    background-color: #027448;
+   
+}
