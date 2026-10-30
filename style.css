@@ -93,16 +93,15 @@ img {
     border: 1px solid #fed3c8;
 }
 
-.buttons{
-    padding:5px;
-}
+
 .team button{
-    padding: 5px;
+    padding: 8px;
     margin-top: 5px;
     border:none;
     background-color: #fed3c8;
-    border-radius: 4px;
+    border-radius: 5px;
     color:#803808;
+    font-weight: 400;
 }
 
 #reset-btn{ 
